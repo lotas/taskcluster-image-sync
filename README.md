@@ -32,6 +32,8 @@ To sync a specific version immediately (e.g., for an urgent deployment):
 
 Manual runs with a version input will force-sync that tag even if it already exists in GAR.
 
+Note: Github seems to disable workflows if repository is inactive for 60 days
+
 ## Adding a New GAR Target
 
 1. Add WIF secrets to the repo:
